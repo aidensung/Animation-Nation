@@ -1,0 +1,39 @@
+div#one {
+  height: 100px;
+  width: 100%;
+  background: #fadbd9;
+  animation: slidein .85s linear 0.1s infinite alternate;
+}
+
+div#two {
+  height: 100px;
+  width: 100%;
+  background: #fae4bb;
+  animation: slidein .85s linear 0.2s infinite alternate;
+}
+
+div#three {
+  height: 100px;
+  width: 100%;
+  background: #f8f5c3;
+  animation: slidein .85s linear 0.3s infinite alternate;
+}
+
+div#four {
+  height: 100px;
+  width: 100%;
+  background: #cef8c3;
+  animation: slidein .85s linear 0.4s infinite alternate;
+}
+
+div#five {
+  height: 100px;
+  width: 100%;
+  background: #c3def8;
+  animation: slidein .85s linear 0.5s infinite alternate;
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+} 
